@@ -15,7 +15,7 @@ Another example is a search for _employment_. Since an ecommerce site typically 
 In this Kata we're going to walk you through creating a REDIRECT rule in SMUI, and we'll call out the bit of code that makes the redirection work.
 
 Assuming you've fired up Chorus via `quickstart.sh -lab`, go ahead and open up the web store at  http://localhost:4000/ a search for _returns_.  
-You'll see a bunch of terrible search results.  However, we know that the perfect search result, the returns policy landing page at http://localhost:4000/returns-policy.html is out there.  So how can we get our users to that page?  
+You'll see a bunch of terrible search results.  However, we know that the perfect search result, the returns policy landing page at http://localhost:4000/return-policy.html is out there.  So how can we get our users to that page?  
 
 Open up SMUI at http://localhost:9000 and create a new rule for the query _returns_.  
 Pick _Rule Management_ and from the drop down for new search rules pick _REDIRECT Rule_.
